@@ -44,6 +44,34 @@ Vibrations-Metronom liefert eine bekannte BPM-Referenz, wenn es eingeschaltet
 ist. Tempo- und Regelmäßigkeitswerte müssen als Schätzungen behandelt werden,
 insbesondere bei Pausen, unregelmäßigen Mustern und Fehl- oder Nichterkennung.
 
+### Ergänzung nach dem ersten Uhrentest
+
+- Die Anzeige unterscheidet die geschätzte Frequenz erkannter Schläge am
+  Uhrenarm in Schlägen/Minute von einem geschätzten musikalischen Beat in BPM.
+  Für letzteren wählt die Person 1, 2 oder 4 Schläge pro Beat; die App teilt
+  die geschätzte Schlagfrequenz durch diesen Faktor. Ohne Audio ist das keine
+  automatische Erkennung des Songtempos und kann bei wechselnden Mustern
+  falsch sein. Für Lap und Gesamtaktivität werden jeweils höchstens die
+  letzten 64 Schlagintervalle ausgewertet, ohne Intervalle über Pausen oder
+  Lap-Grenzen hinweg. Der aktuell eingestellte Faktor gilt beim Abschluss
+  des jeweiligen Laps beziehungsweise der Aktivität.
+- Garmin-Connect-FIT-Beiträge sollen Gesamt- und Lap-Schlagzahlen sowie
+  verfügbare Schlagfrequenz- und Beat-Schätzungen enthalten. Nicht verfügbare
+  Werte dürfen nicht als erfundene Null oder als Wert eines vorigen Laps
+  erscheinen. Die gespeicherten FIT-Inhalte sind unabhängig von der Anzeige in
+  Garmin Connect zu prüfen. Garmin-Foren zufolge benötigt die Anzeige eigener
+  Felder eine Installation aus dem Connect-IQ-Store, auch eine private Beta
+  kann dafür dienen; ein Upload erfolgt nur mit Zustimmung.
+- Die Uhr soll nach Möglichkeit Garmins gerätespezifische Tastenhinweise
+  für Speichern und Beenden nutzen. Die Lesbarkeit auf dem runden Display
+  und ein sicherer Umgang mit ungespeicherten Aufzeichnungen bleiben wichtig.
+- Die App ändert die systemweite Aktivitäts- und Schrittzählung nicht: Die
+  verfügbaren Connect-IQ-Hinweise bieten hierfür keinen sicheren Schalter.
+  Manuelles Abschalten betrifft andere Aktivitätsdaten und muss anschließend
+  wieder eingeschaltet werden. Eine Änderung der Sportart nur zur
+  Beeinflussung von Schritten oder Kilometern wird nicht stillschweigend
+  vorgenommen.
+
 ## Nutzerablauf
 
 1. App öffnen und optional das Vibrations-Metronom sowie dessen Ziel-BPM

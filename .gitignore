@@ -1,1 +1,7 @@
 .worktrees/
+/bin/
+/build/
+*.prg
+*.iq
+*.der
+developer_key*

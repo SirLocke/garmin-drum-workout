@@ -1,0 +1,16 @@
+<resources>
+    <fitContributions>
+        <fitField id="0" displayInActivityLaps="true" sortOrder="0" precision="0"
+            dataLabel="@Strings.LapStrokes" unitLabel="@Strings.Strokes" />
+        <fitField id="1" displayInActivitySummary="true" sortOrder="1" precision="0"
+            dataLabel="@Strings.TotalStrokes" unitLabel="@Strings.Strokes" />
+        <fitField id="2" displayInActivitySummary="true" sortOrder="2" precision="0"
+            dataLabel="@Strings.StrokeRate" unitLabel="@Strings.Spm" />
+        <fitField id="3" displayInActivitySummary="true" sortOrder="3" precision="0"
+            dataLabel="@Strings.BeatEstimate" unitLabel="@Strings.Bpm" />
+        <fitField id="4" displayInActivityLaps="true" sortOrder="4" precision="0"
+            dataLabel="@Strings.SongStrokeRate" unitLabel="@Strings.Spm" />
+        <fitField id="5" displayInActivityLaps="true" sortOrder="5" precision="0"
+            dataLabel="@Strings.SongBeatEstimate" unitLabel="@Strings.Bpm" />
+    </fitContributions>
+</resources>

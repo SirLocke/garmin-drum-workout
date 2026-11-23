@@ -1,0 +1,4 @@
+<resources>
+    <bitmap id="RightTopHint" personality="system_icon_dark__hint_button_right_top" />
+    <bitmap id="RightBottomHint" personality="system_icon_dark__hint_button_right_bottom" />
+</resources>

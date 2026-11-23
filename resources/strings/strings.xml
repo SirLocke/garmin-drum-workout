@@ -1,0 +1,12 @@
+<resources>
+    <string id="AppName">Drum Workout</string>
+    <string id="LapStrokes">Song strokes</string>
+    <string id="TotalStrokes">Total strokes</string>
+    <string id="Strokes">strokes</string>
+    <string id="StrokeRate">Average stroke rate</string>
+    <string id="BeatEstimate">Beat estimate (2 hits per beat)</string>
+    <string id="SongStrokeRate">Song average stroke rate</string>
+    <string id="SongBeatEstimate">Song beat estimate (2 hits per beat)</string>
+    <string id="Spm">spm</string>
+    <string id="Bpm">bpm</string>
+</resources>
